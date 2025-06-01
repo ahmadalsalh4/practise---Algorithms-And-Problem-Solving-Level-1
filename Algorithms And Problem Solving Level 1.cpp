@@ -817,79 +817,79 @@ bool login()
 	} while (pin != "1234");
 }
 
-void fun1()
+void Problem1()
 {
 	print_info("ahmad alsaleh");
 }
 
-void fun2()
+void Problem2()
 {
 	print_info(read_info());
 }
 
-void fun3()
+void Problem3()
 {
 	printNumberType(check_even_odd(read_number()));
 }
 
-void fun4()
+void Problem4()
 {
 	print_info(driver_state(get_driver_info()));
 }
 
-void fun5()
+void Problem5()
 {
 	print_info(driver_state(get_driver_info2()));
 
 }
 
-void fun6()
+void Problem6()
 {
 	print_info(to_fln(read_flname()));
 }
 
-void fun7()
+void Problem7()
 {
 	print_half_ofnumber(read_numbertohalf());
 }
 
-void fun8()
+void Problem8()
 {
 	print_result(read_mark());
 }
 
-void fun9()
+void Problem9()
 {
 	float number[3];
 	sumof3(number);
 	print_info(calcu(number));
 }
 
-void fun10()
+void Problem10()
 {
 	float mark_1, mark_2, mark_3;
 	avgof3(mark_1, mark_2, mark_3);
 	print_info(calcuavg3(mark_1, mark_2, mark_3));
 }
 
-void fun11()
+void Problem11()
 {
 	ststudent student;
 	student = read_student_marks();
 	print_student_mark_satate(calculate_avg_of_3(student));
 }
 
-void fun12()
+void Problem12()
 {
 	print_info(to_string(max_2(read_number(), read_number())));
 }
 
-void fun13()
+void Problem13()
 {
 	print_info(to_string(max_3(read_number(), read_number(), read_number())));
 }
 
-void fun14()
+void Problem14()
 {
 	float num1, num2;
 	read_numbers2(num1, num2);
@@ -898,20 +898,20 @@ void fun14()
 	print_numbers2(num1, num2);
 }
 
-void fun15()
+void Problem15()
 {
 	cout << "please enter a and b to calculate the area of the rectangle: \n";
 	print_info(to_string(area1(read_number(), read_number())));
 }
 
-void fun16()
+void Problem16()
 {
 	float a = read_number(), d = read_number();
 
 	print_info(to_string(area2(a, d)));
 }
 
-void fun17()
+void Problem17()
 {
 	cout << "please enter a and h to calculate the area of the triangle: \n";
 	float a, h;
@@ -919,30 +919,30 @@ void fun17()
 	print_info(to_string(area9(a, h)));
 }
 
-void fun18()
+void Problem18()
 {
 	cout << "please enter r to calculate circle area: \n";
 	cout << "the area of circle = " << area3(read_number()) << endl;
 }
 
-void fun19()
+void Problem19()
 {
 	cout << "please enter d to calculate the circle area using diameter: \n";
 	cout << "the area of circle = " << area4(read_number()) << endl;
 }
 
-void fun20()
+void Problem20()
 {
 	print_for_20(area5(read_numberfor20()));
 }
 
-void fun21()
+void Problem21()
 {
 	cout << "please enter A to calculate circle area using circumference: \n";
 	cout << "the area of circle = " << area6(read_number()) << endl;
 }
 
-void fun22()
+void Problem22()
 {
 	float a, b;
 	cout << "please enter a and b to calculate the area of circle that in a isosceles triangle: \n";
@@ -950,66 +950,66 @@ void fun22()
 	cout << "the area of circle = " << area7(a, b) << endl;
 }
 
-void fun23()
+void Problem23()
 {
 	float num[3];
 	read_3_number(num);
 	cout << "the area of circle = " << area8(num[0], num[1], num[2]) << endl;
 }
 
-void fun24()
+void Problem24()
 {
 	print_age_result(read_age());
 }
 
-void fun25()
+void Problem25()
 {
 	print_age_result2(read_age_betwen(18, 45));
 }
 
-void fun26()
+void Problem26()
 {
 	print_into(read_number());
 }
 
-void fun27()
+void Problem27()
 {
 	into_print(read_number());
 }
 
-void fun28()
+void Problem28()
 {
 	print_info(to_string(sum_of_odd(read_number())));
 }
 
-void fun29()
+void Problem29()
 {
 	print_info(to_string(sum_of_even(read_number())));
 }
 
-void fun30()
+void Problem30()
 {
 	cout << n_factorial(read_number_poz("plese enter n as pozitif number: ")) << endl;
 }
 
-void fun31()
+void Problem31()
 {
 	powerof_234(read_number());
 }
 
-void fun32()
+void Problem32()
 {
 	float n = read_number();
 	int m = read_power();
 	print_result_of_n_power_m(n, m);
 }
 
-void fun33()
+void Problem33()
 {
 	cout << "you get: " << get_grade(read_number_in_range(0, 100, "\n")) << endl;
 }
 
-void fun34()
+void Problem34()
 {
 	double total_sale;
 
@@ -1019,22 +1019,22 @@ void fun34()
 	cout << ".\nyour total sale commusion: " << total_sale_commesion(total_sale) << ".\n";
 }
 
-void fun35()
+void Problem35()
 {
 	print_money(read_money());
 }
 
-void fun36()
+void Problem36()
 {
 	cout << calculate(read_calcu());
 }
 
-void fun37()
+void Problem37()
 {
 	cout << "sum = " << sum_99();
 }
 
-void fun38()
+void Problem38()
 {
 	int t = read_number();
 	cout << "----------------------\n";
@@ -1047,7 +1047,7 @@ void fun38()
 	cout << "----------------------";
 }
 
-void fun39()
+void Problem39()
 {
 
 	float total_bill = read_number_masseg("please enter total bill: ");
@@ -1055,12 +1055,12 @@ void fun39()
 	cout << "the reamainder = " << calculate_remainder(cash_paid, total_bill) << endl;
 }
 
-void fun40()
+void Problem40()
 {
 	cout << "your totalbill = " << calculate_billvalue(read_number_masseg("please enter billvalue: ")) << endl;
 }
 
-void fun41()
+void Problem41()
 {
 	sttime time;
 	time.hours = read_number_masseg("please enter number of hours: ");
@@ -1068,52 +1068,52 @@ void fun41()
 	cout << time.weaks << " weeks\n" << time.days << " days\n";
 }
 
-void fun42()
+void Problem42()
 {
 	cout << "time duration in seconds = " << time_to_second(read_time()) << " seconds" << endl;
 }
 
-void fun43()
+void Problem43()
 {
 	print_time_result(second_to_time(read_number_masseg("please enter the number of seconds: ")));
 }
 
-void fun44()
+void Problem44()
 {
 	cout << "its " << get_day((endays)(read_number_in_range(1, 7, "please enter day number, "))) << endl;
 }
 
-void fun45()
+void Problem45()
 {
 	cout << "its: " << get_month((enmonth)(read_number_in_range(1, 12, "please enter mounth number , ")));
 }
 
-void fun46()
+void Problem46()
 {
 	letters(read_number_masseg("enter 1 to print small letters, enter 2 to print big letters, enter anything else to skip: "));
 }
 
-void fun47()
+void Problem47()
 {
 	int loan_amount = read_number_masseg("please enter loan amount: ");
 	int mounthly_payment = read_number_masseg("please enter monthly payment: ");
 	cout << "you need " << calculate_total_mounth(loan_amount, mounthly_payment) << " mounth to complet the loan\n";
 }
 
-void fun48()
+void Problem48()
 {
 	int loan_amount = read_number_masseg("please enter loan amount: ");
 	int how_many_mounth = read_number_masseg("please enter how many mounth: ");
 	cout << "you need to pay " << mounthly_instulmant(loan_amount, how_many_mounth) << " liras evrey mounth to complet the loan\n";
 }
 
-void fun49()
+void Problem49()
 {
 	if (login49())
 		cout << "\nyour balance is: 7500" << endl;
 }
 
-void fun50()
+void Problem50()
 {
 	if (login())
 		cout << "\nyour balance is: 7500" << endl;
